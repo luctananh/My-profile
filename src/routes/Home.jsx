@@ -13,7 +13,7 @@ function Home() {
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Thông Tin</h5>
+                            <h5 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 text-white">Thông Tin</h5>
                         </a>
                         <div className="w-full max-w-5xl px-4 md:px-8 text-left mb-8 text-white">
 
