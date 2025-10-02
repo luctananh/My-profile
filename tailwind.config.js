@@ -1,21 +1,16 @@
-const flowbite = require("flowbite-react");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    // Bật chế độ dark mode bằng class
     darkMode: 'class',
-
-    // Thêm đường dẫn của Flowbite vào đây để Tailwind không xóa mất class của nó
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
-        flowbite.content(),
+        // Cú pháp đúng cho Flowbite React
+        'node_modules/flowbite-react/lib/esm/**/*.js',
     ],
-
     theme: {
         extend: {},
     },
-
-    // Thêm plugin của Flowbite vào đây
     plugins: [
-        flowbite.plugin(),
+        // Cú pháp đúng cho Flowbite React
+        require('flowbite/plugin'),
     ],
-}
+};
