@@ -1,5 +1,4 @@
-const flowbite = require("flowbite-react/tailwind");
-
+const flowbite = require("flowbite-react");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     // Bật chế độ dark mode bằng class
