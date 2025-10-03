@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import About from './routes/Project.jsx';
+import Project from './routes/Project.jsx';
 import Home from './routes/Home.jsx';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function AppContent() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/Project" element={<About />} />
+        <Route path="/Project" element={<Project />} />
         <Route path="/" element={<Home />} />
       </Routes>
 
